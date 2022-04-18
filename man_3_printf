@@ -4,7 +4,8 @@
 .B _printf\fR \- formatted output conversion
 
 .SH SYNOPSIS
-.B #include \fB"main.h"
+.br
+#include "main.h"
 
 .B int printf(const char *\fIformat\fB, ...);
 
@@ -280,6 +281,7 @@ printf(3)
 The \fB_printf()\fR function emulates functionality of the C standard library
 function \fBprintf()\fR. This man page borrows from the corresponding Linux
 man page printf(3).
+This man-page was created in collaboration with ALX-Holberton School
 
 .SH AUTHOR
-Arsene Awounou Pericles Adjovi
+.B Francis Mbugua
